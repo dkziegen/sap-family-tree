@@ -1,0 +1,36 @@
+{
+  "name": "sap-family-tree",
+  "version": "1.0.0",
+  "type": "module",
+  "author": "daphne-ziegenfelder",
+  "description": "Tracks an atypical family tree, like those in mythology, where relationships aren't as straightforward.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "start": "tsx src/index.ts",
+    "check": "tsc --noEmit",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dkziegen/sap-family-tree.git"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dkziegen/sap-family-tree/issues"
+  },
+  "homepage": "https://github.com/dkziegen/sap-family-tree#readme",
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/morgan": "^1.9.10",
+    "@types/node": "^26.4.0",
+    "tsx": "^4.23.13",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "chalk": "^6.0.0",
+    "express": "^5.2.1",
+    "morgan": "^1.12.0"
+  }
+}
